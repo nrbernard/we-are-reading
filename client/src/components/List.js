@@ -3,7 +3,7 @@ import Item from './Item';
 
 export default class List extends Component {
   render() {
-    const items = this.props.items.map(item => <Item key={item.id} item={item} />)
+    const items = this.props.items.map(item => <Item key={item._id} item={item} />)
 
     return (
       <ul className="media-list">
