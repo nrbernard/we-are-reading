@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 import Item from './Item';
-import items from '../../lib/data';
+import items from '../fixtures/data';
 
 it('renders the title', () => {
   const item = items[0];
